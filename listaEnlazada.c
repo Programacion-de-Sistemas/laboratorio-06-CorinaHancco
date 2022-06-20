@@ -10,5 +10,5 @@ node;
 
 int main(){
 	node *list=NULL;
-
+	node *n = malloc(sizeof(node));
 }
