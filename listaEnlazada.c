@@ -18,6 +18,14 @@ node *addNode(node *lista, int num){
 	if(lista == NULL){
 	  lista = nuevoNodo;
 	}
+	else{
+	  temporal = lista;
+
+	  while(temporal->next != NULL){
+	     temporal = temporal->next;
+	     temporal->next = nuevoNodo;
+	  }
+	}
 	return lista;
 }
 
