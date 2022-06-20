@@ -32,11 +32,7 @@ node *addNode(node *lista, int num){
 int main(){
     node *list=NULL;
 
-    //agregamos un elemento a la lista
-   list = addNode(list,4);
-   list = addNode(list,5);
-   list = addNode(list,23);
-   
+   // ciclo for para agregar datos a la lista 
    for(int i = 1; i <= 10; i++){
       list = addNode(list,i);
    }
@@ -57,6 +53,5 @@ int main(){
     }
 
     return 0;
-
 }
 
