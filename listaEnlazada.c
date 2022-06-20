@@ -23,8 +23,8 @@ node *addNode(node *lista, int num){
 
 	  while(temporal->next != NULL){
 	     temporal = temporal->next;
-	     temporal->next = nuevoNodo;
 	  }
+	  temporal->next = nuevoNodo;
 	}
 	return lista;
 }
