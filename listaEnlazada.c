@@ -9,6 +9,10 @@ typedef struct node
 }
 node;
 
+node *addNode(node *lista, int num){
+
+}
+
 int main(){
     node *list=NULL;
 
