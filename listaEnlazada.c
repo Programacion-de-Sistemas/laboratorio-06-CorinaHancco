@@ -12,6 +12,8 @@ node;
 node *addNode(node *lista, int num){
 	node *nuevoNodo;
 	nuevoNodo = malloc(sizeof(node));
+	nuevoNodo->number = num;
+        nuevoNodo->next = NULL; 
 }
 
 int main(){
