@@ -7,3 +7,8 @@ typedef struct node
 	node *next;
 }
 node;
+
+int main(){
+	node *list=NULL;
+
+}
