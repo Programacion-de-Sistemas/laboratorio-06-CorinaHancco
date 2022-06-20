@@ -10,7 +10,8 @@ typedef struct node
 node;
 
 node *addNode(node *lista, int num){
-
+	node *nuevoNodo;
+	nuevoNodo = malloc(sizeof(node));
 }
 
 int main(){
