@@ -25,7 +25,7 @@ int main(){
     node *list=NULL;
 
     //agregamos un elemento a la lista
-   list = addNode(list,4) 
+   list = addNode(list,4);
    // node *n = malloc(sizeof(node)); //asignando memoria para node
    // if(n==NULL){
      //  return 1;
