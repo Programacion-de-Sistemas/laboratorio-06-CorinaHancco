@@ -11,4 +11,8 @@ node;
 int main(){
 	node *list=NULL;
 	node *n = malloc(sizeof(node));
+	
+	if(n==NULL){
+	  return 1;
+	}
 }
