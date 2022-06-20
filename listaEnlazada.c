@@ -11,10 +11,10 @@ node;
 
 node *addNode(node *lista, int num){
 	node *nuevoNodo;
+	node *temporal;
 	nuevoNodo = malloc(sizeof(node));
 	nuevoNodo->number = num;
-        nuevoNodo->next = NULL; 
-	
+        nuevoNodo->next = NULL; 	
 	if(lista == NULL){
 	  lista = nuevoNodo;
 	}
