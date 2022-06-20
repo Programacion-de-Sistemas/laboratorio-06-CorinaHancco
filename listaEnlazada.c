@@ -36,26 +36,10 @@ int main(){
    list = addNode(list,4);
    list = addNode(list,5);
    list = addNode(list,23);
-   // node *n = malloc(sizeof(node)); //asignando memoria para node
-   // if(n==NULL){
-     //  return 1;
-   // }
-   // n->number=45;
-   // n->next=NULL;
-
-   // node *n_2 = malloc(sizeof(node)); //asignando memoria para node
-   // if(n_2==NULL){
-     //   return 1;
-   // }
-   // n_2->number=15;
-   // n_2->next=NULL;
-
-    //actualizar el punto next del primer elemento
-   // n->next=n_2;
-
-
-    //actualizamos la lista
-   // list=n;
+   
+   for(int i = 1; i <= 10; i++){
+      list = addNode(list,i);
+   }
 
     // imprimir los elementos de la lista
     for (node *tmp = list;tmp!=NULL;tmp=tmp->next)
